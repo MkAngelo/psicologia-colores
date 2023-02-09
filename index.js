@@ -5,8 +5,8 @@ function guess() {
     let m = count(arr[1]);
     let d = count(arr[2]);
     let ans = y+m+d;
-
-    if(ans >= 10){
+    console.log(ans)
+    while(ans >= 10){
         ans=count(ans.toString());
     }
 
