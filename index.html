@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (min-width: 300px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" href="more.css" media="screen and (min-width: 1000px)">
+
+    <link rel="icon" href="images/icon.ico">
+    <title>Adivina</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Qué dice la psicología de colores acerca de ti? 🤔</h1>
+    </div>
+    <div class="container">
+        <label for="birthday">Ingresa tu fecha de nacimiento: </label>
+        <input type="date" name="birthday" id="birthday">
+    </div>
+
+    <div class="btn">
+        <button class="button" onclick="guess()">Adivina</button>
+    </div>
+    
+    <br><br><br>
+
+    <center>
+        <img src="images/main.png" alt="La psicología de colores dice que tu..." class="imagen" id="imagen">
+    </center>
+    <script src="index.js"></script>
+</body>
+</html>
